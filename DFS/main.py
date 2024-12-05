@@ -1,3 +1,11 @@
+graph= {
+	'S':['B','D','A'],
+	'A':['C'],
+	'B':['D'],
+	'C':['G','D'],
+	'D':['G'],
+	'G':[]
+}
 def dfs(graph,start,goal):
 	visited=[] 
 	stack=[[start]]
